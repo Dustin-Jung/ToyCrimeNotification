@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428687550904",
+    "project_id": "toycrimenotification",
+    "storage_bucket": "toycrimenotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428687550904:android:dec0c79ff233ba9b7f074d",
+        "android_client_info": {
+          "package_name": "com.android.aop.part2.toycrimenotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428687550904-bculfpts0880gfa3mpfcrmqebtnr9i3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdmR2XGARjlSajodhMYIAW2HNwSWkIrMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428687550904-bculfpts0880gfa3mpfcrmqebtnr9i3k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
