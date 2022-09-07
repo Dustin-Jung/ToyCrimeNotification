@@ -9,4 +9,6 @@ interface CriminalLocalDataSource {
 
     suspend fun registerCriminalEntityList(toZipList: List<CriminalEntity>): Boolean
 
+    suspend fun getCriminalEntity(name: String): Result<CriminalEntity>
+
 }

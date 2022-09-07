@@ -25,6 +25,14 @@ class CriminalLocalDataSourceImpl @Inject constructor(private val criminalDao: C
         }
     }
 
+    override suspend fun getCriminalEntity(name: String): Result<CriminalEntity> {
+        return try {
+            Result.Success(criminalDao.getCriminalEntity(name))
+        } catch (e: Exception) {
+            Result.Error(e)
+        }
+    }
+
     private fun registerAll(list: List<CriminalEntity>): Boolean {
         var isAllSave = true
         list.forEach {

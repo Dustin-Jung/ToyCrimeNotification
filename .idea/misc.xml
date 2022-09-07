@@ -5,11 +5,15 @@
       <map>
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/drawable/bg_action_lorange.xml" value="0.1485" />
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/drawable/bg_box_stroke.xml" value="0.1485" />
+        <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/drawable/ic_call.xml" value="0.1485" />
+        <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/activity_criminal_list.xml" value="0.20471014492753623" />
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/activity_home.xml" value="0.20471014492753623" />
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/activity_register.xml" value="0.20471014492753623" />
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/activity_splash.xml" value="0.20244565217391305" />
         <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/fragment_map.xml" value="0.20471014492753623" />
+        <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/layout/item_criminal_list.xml" value="0.20471014492753623" />
+        <entry key="..\:/App/Ws/AndroidStudio/ToyCrimeNotification/app/src/main/res/menu/menu_user.xml" value="0.25364583333333335" />
       </map>
     </option>
   </component>

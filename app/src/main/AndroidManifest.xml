@@ -41,6 +41,13 @@
             android:exported="false"
             android:launchMode="singleTask" />
 
+        <activity
+            android:name=".ui.criminallist.CriminalListActivity"
+            android:exported="false" />
+
+        <meta-data android:name="com.kakao.sdk.AppKey"
+            android:value="df7b033974774c661ef68aa20cb2b231"/>
+
     </application>
 
 </manifest>
