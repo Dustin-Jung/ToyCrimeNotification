@@ -29,10 +29,13 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>(R.layout.activity_spl
     private val splashViewModel by viewModels<SplashViewModel>()
 
     private val lottieAnimationListener = object : Animator.AnimatorListener {
-        override fun onAnimationStart(animation: Animator?) {
+
+        override fun onAnimationStart(p0: Animator) {
+
         }
 
-        override fun onAnimationEnd(animation: Animator?) {
+        override fun onAnimationEnd(p0: Animator) {
+
             if (isRoute) {
                 startActivity(Intent(this@SplashActivity, LoginActivity::class.java).apply {
                     addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
@@ -51,13 +54,14 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>(R.layout.activity_spl
                 }
 
             }
-        }
-
-        override fun onAnimationCancel(animation: Animator?) {
 
         }
 
-        override fun onAnimationRepeat(animation: Animator?) {
+        override fun onAnimationCancel(p0: Animator) {
+
+        }
+
+        override fun onAnimationRepeat(p0: Animator) {
 
         }
 
